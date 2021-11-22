@@ -22,7 +22,7 @@ const Body = () => {
             console.log(response);
          })
          .catch((err)=>console.log(err)); 
-      setCityName("");
+      setInput("");
    }
 
    const theme = createTheme({
