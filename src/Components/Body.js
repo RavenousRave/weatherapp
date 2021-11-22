@@ -15,7 +15,7 @@ const Body = () => {
 
    const getCityInfo = () => {
       console.log(cityName);
-      axios.get("http://api.openweathermap.org/data/2.5/weather?q="+
+      axios.get("https://api.openweathermap.org/data/2.5/weather?q="+
          cityName+"&units=imperial&appid=9602f3c62c4c8d378cca9c712e07349f")
          .then(response => {
             setCityInfo(response);
